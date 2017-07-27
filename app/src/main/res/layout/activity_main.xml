@@ -7,4 +7,14 @@
     tools:context="com.dabang.mvvmdemo.MainActivity">
 
 
+    <com.dabang.mvvmdemo.widget.BorderNineGridImageView
+        android:id="@+id/nine_grid_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:imgGap="5dp"
+        app:measure_mulite_ratio="1.35"
+        app:measure_single_ratio="1.78"
+        app:showStyle="grid">
+
+    </com.dabang.mvvmdemo.widget.BorderNineGridImageView>
 </RelativeLayout>
